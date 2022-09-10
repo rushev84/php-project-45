@@ -17,10 +17,4 @@ if (file_exists($autoloadPath1)) {
 // файл Cli.php включён в composer.json в секции autoload/files. После внесения изменений в этом месте - необходимо делать composer dump-autoload
 use BrainGames\Cli;
 
-Cli\hello();
-
-echo "Welcome to the Brain Games!\n";
-echo "May I have your name?\n";
-
-$name = trim(fgets(STDIN));
-echo "Hello, {$name}!\n";
+Cli\greeting();
