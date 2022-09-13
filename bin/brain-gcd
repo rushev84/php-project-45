@@ -18,5 +18,3 @@ use function BrainGames\Games\Gcd\getData;
 use function BrainGames\Engine\runGame;
 
 runGame(getData());
-
-print_r('Hello from brain-gcd');
