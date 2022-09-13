@@ -11,6 +11,7 @@ function getData()
     for ($i = 0; $i < 3; $i++) {
         $number = rand(1, 100);
         $rightAnswer = $number % 2 === 0 ? 'yes' : 'no';
+
         $data['questions'][] = $number;
         $data['rightAnswers'][] = $rightAnswer;
     }

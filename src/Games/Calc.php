@@ -17,8 +17,6 @@ function getData()
 
         $rightAnswer = 0;
 
-        $data['questions'][] = "${number1} ${operation} ${number2}";
-
         if ($operation === '+') {
             $rightAnswer = $number1 + $number2;
         } elseif ($operation === '-') {
@@ -27,6 +25,7 @@ function getData()
             $rightAnswer = $number1 * $number2;
         }
 
+        $data['questions'][] = "${number1} ${operation} ${number2}";
         $data['rightAnswers'][] = (string) $rightAnswer;
     }
 
