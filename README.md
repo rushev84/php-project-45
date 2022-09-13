@@ -8,3 +8,6 @@ Install and play "Brain Even":
 
 Play "Brain Calc":
 [![asciicast](https://asciinema.org/a/zGuyEl8DSNgvcBOTEKXXcN4Zh.svg)](https://asciinema.org/a/zGuyEl8DSNgvcBOTEKXXcN4Zh)
+
+Play "Brain GCD":
+[![asciicast](https://asciinema.org/a/MCJZpSnA4Wq6jXqiupVniBc5v.svg)](https://asciinema.org/a/MCJZpSnA4Wq6jXqiupVniBc5v)
