@@ -12,8 +12,8 @@
         },
         "files": [
             "src/Cli.php",
-            "src/Even.php",
-            "src/Run.php"
+            "src/Games/Even.php",
+            "src/Engine.php"
         ]
     },
     "authors": [

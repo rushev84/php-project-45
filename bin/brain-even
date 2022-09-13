@@ -14,7 +14,7 @@ if (file_exists($autoloadPath1)) {
     require_once $autoloadPath2;
 }
 
-use function BrainGames\Even\getData;
-use function BrainGames\Run\runGame;
+use function BrainGames\Games\Even\getData;
+use function BrainGames\Engine\runGame;
 
 runGame(getData());
