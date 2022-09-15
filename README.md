@@ -11,3 +11,6 @@ Play "Brain Calc":
 
 Play "Brain GCD":
 [![asciicast](https://asciinema.org/a/MCJZpSnA4Wq6jXqiupVniBc5v.svg)](https://asciinema.org/a/MCJZpSnA4Wq6jXqiupVniBc5v)
+
+Play "Brain Progression":
+[![asciicast](https://asciinema.org/a/jBUGGVG2m8X6JNMUSECzQgoBL.svg)](https://asciinema.org/a/jBUGGVG2m8X6JNMUSECzQgoBL)
