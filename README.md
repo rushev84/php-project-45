@@ -14,3 +14,6 @@ Play "Brain GCD":
 
 Play "Brain Progression":
 [![asciicast](https://asciinema.org/a/jBUGGVG2m8X6JNMUSECzQgoBL.svg)](https://asciinema.org/a/jBUGGVG2m8X6JNMUSECzQgoBL)
+
+Play "Brain Prime": 
+[![asciicast](https://asciinema.org/a/mETZYYfRwjPaCr0NppF0AD03b.svg)](https://asciinema.org/a/mETZYYfRwjPaCr0NppF0AD03b)
