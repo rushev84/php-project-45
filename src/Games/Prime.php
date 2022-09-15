@@ -2,7 +2,7 @@
 
 namespace BrainGames\Games\Prime;
 
-function isPrime($num)
+function isPrime(int $num)
 {
     if ($num == 1) {
         return false;
@@ -28,7 +28,7 @@ function getData()
         isPrime($num) ? $rightAnswer = 'yes' : $rightAnswer = 'no';
 
         $data['questions'][] = $num;
-        $data['rightAnswers'][] = (string)$rightAnswer;
+        $data['rightAnswers'][] = $rightAnswer;
     }
 
     return $data;
