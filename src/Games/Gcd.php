@@ -2,7 +2,7 @@
 
 namespace BrainGames\Games\Gcd;
 
-function nod($a, $b)
+function gcd($a, $b)
 {
     while ($a != $b) {
         if ($a > $b) $a = $a - $b;
@@ -21,7 +21,7 @@ function getData()
         $number1 = rand(1, 100);
         $number2 = rand(1, 100);
 
-        $rightAnswer = nod($number1, $number2);
+        $rightAnswer = gcd($number1, $number2);
 
         $data['questions'][] = "${number1} ${number2}";
         $data['rightAnswers'][] = (string) $rightAnswer;
