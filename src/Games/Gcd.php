@@ -14,7 +14,7 @@ function gcd(int $a, int $b): int
     return $b;
 }
 
-function getData()
+function getData(): array
 {
     $data = [
         'instruction' => 'Find the greatest common divisor of given numbers.',
