@@ -2,7 +2,7 @@
 
 namespace BrainGames\Games\Prime;
 
-function isPrime(int $num)
+function isPrime(int $num): bool
 {
     if ($num < 2) {
         return false;
@@ -15,7 +15,7 @@ function isPrime(int $num)
     return true;
 }
 
-function getData()
+function getData(): array
 {
     $data = [
         'instruction' => 'Answer "yes" if given number is prime. Otherwise answer "no".',

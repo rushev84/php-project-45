@@ -2,7 +2,7 @@
 
 namespace BrainGames\Games\Calc;
 
-function getData()
+function getData(): array
 {
     $data = [
         'instruction' => 'What is the result of the expression?',

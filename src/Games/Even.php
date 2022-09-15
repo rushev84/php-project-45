@@ -2,7 +2,7 @@
 
 namespace BrainGames\Games\Even;
 
-function getData()
+function getData(): array
 {
     $data = [
         'instruction' => 'Answer "yes" if the number is even, otherwise answer "no".',

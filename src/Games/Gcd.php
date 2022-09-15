@@ -2,7 +2,7 @@
 
 namespace BrainGames\Games\Gcd;
 
-function gcd(int $a, int $b)
+function gcd(int $a, int $b): int
 {
     while ($a != $b) {
         if ($a > $b) {

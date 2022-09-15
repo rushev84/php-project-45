@@ -2,7 +2,7 @@
 
 namespace BrainGames\Games\Progression;
 
-function getData()
+function getData(): array
 {
     $data = [
         'instruction' => 'What number is missing in the progression?',
