@@ -9,7 +9,6 @@ function getData()
     ];
 
     for ($i = 0; $i < 3; $i++) {
-
         // Всю прогрессию можно так же сгенерировать с помощью range()
         $progression = [];
         $progressionLength = rand(5, 10);

@@ -33,5 +33,4 @@ function runGame($data)
             line("Congratulations, ${name}!");
         }
     }
-
 }

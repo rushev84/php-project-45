@@ -5,8 +5,11 @@ namespace BrainGames\Games\Gcd;
 function gcd($a, $b)
 {
     while ($a != $b) {
-        if ($a > $b) $a = $a - $b;
-        else $b = $b - $a;
+        if ($a > $b) {
+            $a = $a - $b;
+        } else {
+            $b = $b - $a;
+        }
     }
     return $b;
 }
@@ -24,7 +27,7 @@ function getData()
         $rightAnswer = gcd($number1, $number2);
 
         $data['questions'][] = "${number1} ${number2}";
-        $data['rightAnswers'][] = (string) $rightAnswer;
+        $data['rightAnswers'][] = (string)$rightAnswer;
     }
 
     return $data;
